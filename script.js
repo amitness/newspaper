@@ -1,6 +1,6 @@
 var today = new Date();
 var year = today.getFullYear();
-var month = today.getMonth() + 1 // Since its zero indexed
+var month = today.getMonth() + 1; // Since its zero indexed
 var month = month < 10 ? '0' + month:  month;
 var date = today.getDate() < 10 ? '0' + today.getDate() : today.getDate();
 
